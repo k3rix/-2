@@ -35,11 +35,11 @@ function createWindow() {
 
 // Работа с БАЗАМИ ДАННЫХ
 const login = {
-  user: 'electron',
-  password: '123test',
+  user: 'batya',
+  password: '123ars',
   host: 'localhost',
   port: 5433,
-  database: 'demo_2025',
+  database: 'demo_02_2025',
 };
 
 async function getMemberById(_, id) {
